@@ -1,0 +1,97 @@
+body {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: gray;
+}
+
+.main {
+  display: flex;
+  gap: 160px;
+  margin-top: 138px;
+}
+
+.socials {
+  color: white;
+  display: flex;
+  gap: 18px;
+}
+
+.socials p {
+  padding: 20px 50px;
+}
+
+.mainRight {
+  position: relative;
+}
+
+.svgEl {
+  position: absolute;
+  left: 20px;
+  top: -50px;
+}
+
+.selection {
+  display: flex;
+  gap: 52px;
+  margin-top: 312px;
+  margin-bottom: 124px;
+}
+
+.selection a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #424242;
+  font-size: 18px;
+}
+
+.news {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 590px;
+  margin-bottom: 55px;
+}
+
+.cardDate {
+  font-size: 14px;
+}
+
+.cardTitle {
+  color: #D05270;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 14px 0;
+}
+
+.cardLink {
+  color: #D05270;
+}
+
+.footerLogo {
+  margin: 265px auto 100px;
+  display: block;
+}
